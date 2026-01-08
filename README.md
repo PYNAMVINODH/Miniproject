@@ -1,33 +1,35 @@
-## Title of the Project
-Small description about the project like one below
-The integration of a chatbot within a hostel booking system, aimed at streamlining the reservation process for students and improving the overall user experience.
+## Inventory Management Using XAI Forecasting
+This project introduces an innovative inventory management system utilizing Long Short-Term Memory (LSTM) networks integrated with Explainable AI (XAI) frameworks. It transforms "black-box" deep learning predictions into justified, actionable business intelligence to optimize supply chain costs and customer satisfaction.
 
 ## About
 <!--Detailed Description about the project-->
-Tailored Chatbot for Hostel Booking System is a project designed to integrate a chatbot that leverages advanced natural language processing techniques to understand and respond to user queries to the hostel booking system. Traditional hostel booking processes are often time-consuming and involve manual searches and extensive communication with hostel staff. This project seeks to overcome these challenges by creating an easy-to-use chatbot interface that assists students in addressing inquiries.
+Traditional inventory forecasting often relies on manual statistical models that fail to handle market volatility, while modern AI models are often "opaque," leading to a Trust Gap among managers. This system bridges that gap by providing high-accuracy demand forecasting paired with a SHAP interpretability layer. By explaining the "why" behind every "reorder" suggestion—attributing spikes to factors like seasonal heatwaves or price drops—the system empowers warehouse managers to mitigate the Bullwhip Effect and reduce financial risks.
 
 ## Features
 <!--List the features of the project as shown below-->
-- Implements advance neural network method.
-- A framework based application for deployment purpose.
-- High scalability.
-- Less time complexity.
-- A specific scope of Chatbot response model, using json data format.
+- LSTM Forecasting Engine: Captures complex, non-linear demand patterns and long-term seasonality.
+- SHAP Interpretability Layer: Breaks down forecasts into human-readable "Feature Contributions".
+- Automated Reasoning Reports: Generates alerts that explain the mathematical logic behind reorder suggestions to build user trust.
+- Dynamic Streamlit Dashboard: A real-time interface for visualizing future demand curves alongside XAI-driven "Waterfall Plots".
+- Nutritional Intelligence Integration: Links product inventory to health-critical events (e.g., prioritizing Butter Milk during heatwaves).
 
 ## Requirements
 <!--List the requirements of the project as shown below-->
-* Operating System: Requires a 64-bit OS (Windows 10 or Ubuntu) for compatibility with deep learning frameworks.
-* Development Environment: Python 3.6 or later is necessary for coding the sign language detection system.
-* Deep Learning Frameworks: TensorFlow for model training, MediaPipe for hand gesture recognition.
-* Image Processing Libraries: OpenCV is essential for efficient image processing and real-time hand gesture recognition.
-* Version Control: Implementation of Git for collaborative development and effective code management.
-* IDE: Use of VSCode as the Integrated Development Environment for coding, debugging, and version control integration.
-* Additional Dependencies: Includes scikit-learn, TensorFlow (versions 2.4.1), TensorFlow GPU, OpenCV, and Mediapipe for deep learning tasks.
+*Operating System: Windows 10/11 or Linux (Ubuntu).
+* Development Environment: Python 3.8 or later.
+* Processor: Intel Core i5 (8th Gen) or higher.
+* Memory: 8 GB minimum (16 GB recommended).
+* Deep Learning Frameworks: TensorFlow, Keras, or PyTorch for the LSTM engine.
+* Explainable AI: SHAP (SHapley Additive exPlanations) for model transparency.
+* Data & Visualization: Pandas, NumPy, Matplotlib, and Plotly.
+* Deployment: Streamlit for the interactive web-based dashboard.
 
 ## System Architecture
 <!--Embed the system architecture diagram as shown below-->
+The architecture consists of a Data Ingestion Layer, a Data Preprocessing/Feature Engineering module (handling normalization and time-lags), the LSTM Deep Learning Model, and the SHAP Explainer Module that feeds into an interactive Streamlit Dashboard.
 
-![Screenshot 2023-11-25 133637](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/a60c11f3-0a11-47fb-ac89-755d5f45c995)
+<img width="794" height="365" alt="Screenshot 2026-01-07 104729" src="https://github.com/user-attachments/assets/cb484e11-a6d6-4f8c-9e17-0ad5f15bd20b" />
+
 
 
 ## Output
@@ -35,24 +37,24 @@ Tailored Chatbot for Hostel Booking System is a project designed to integrate a 
 <!--Embed the Output picture at respective places as shown below as shown below-->
 #### Output1 - Name of the output
 
-![Screenshot 2023-11-25 134037](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/8c2b6b5c-5ed2-4ec4-b18e-5b6625402c16)
+<img width="802" height="368" alt="Screenshot 2026-01-07 104617" src="https://github.com/user-attachments/assets/d9c7cea8-964f-4e1b-93e3-4b1ed351502f" />
+
 
 #### Output2 - Name of the output
-![Screenshot 2023-11-25 134253](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/5e05c981-05ca-4aaa-aea2-d918dcf25cb7)
+<img width="803" height="395" alt="Screenshot 2026-01-07 104856" src="https://github.com/user-attachments/assets/3405b819-656e-4f35-aae0-2b210ff4f384" />
 
-Detection Accuracy: 96.7%
-Note: These metrics can be customized based on your actual performance evaluations.
+
+Forecast Accuracy: Achieved a Mean Absolute Percentage Error (MAPE) of 0.06 (94%) for seasonal demand and 0.08 (92%) for promotional spikes.
 
 
 ## Results and Impact
 <!--Give the results and impact as shown below-->
-The Sign Language Detection System enhances accessibility for individuals with hearing and speech impairments, providing a valuable tool for inclusive communication. The project's integration of computer vision and deep learning showcases its potential for intuitive and interactive human-computer interaction.
-
-This project serves as a foundation for future developments in assistive technologies and contributes to creating a more inclusive and accessible digital environment.
+The system achieves exceptional predictive accuracy and high computational efficiency, generating a 30-day forecast in under 0.5 seconds. By providing transparent, data-driven insights, it minimizes "over-ordering" of perishables, directly preventing food spoilage and resource waste in alignment with Sustainable Development Goal (SDG) 12.
 
 ## Articles published / References
-1. N. S. Gupta, S. K. Rout, S. Barik, R. R. Kalangi, and B. Swampa, “Enhancing Heart Disease Prediction Accuracy Through Hybrid Machine Learning Methods ”, EAI Endorsed Trans IoT, vol. 10, Mar. 2024.
-2. A. A. BIN ZAINUDDIN, “Enhancing IoT Security: A Synergy of Machine Learning, Artificial Intelligence, and Blockchain”, Data Science Insights, vol. 2, no. 1, Feb. 2024.
+1. S. Hochreiter and J. Schmidhuber, "Long short-term memory," Neural Computation, 1997.
+2. S. M. Lundberg and S.-I. Lee, "A unified approach to interpreting model predictions," NIPS, 2017.
+3. H. L. Lee et al., "Information distortion in a supply chain: The bullwhip effect," Management Science, 1997.
 
 
 
