@@ -28,6 +28,9 @@ Traditional inventory forecasting often relies on manual statistical models that
 <!--Embed the system architecture diagram as shown below-->
 The architecture consists of a Data Ingestion Layer, a Data Preprocessing/Feature Engineering module (handling normalization and time-lags), the LSTM Deep Learning Model, and the SHAP Explainer Module that feeds into an interactive Streamlit Dashboard.
 
+<img width="1920" height="1080" alt="Screenshot 2026-01-07 100745" src="https://github.com/user-attachments/assets/fe619bf0-144c-487f-aab0-723161c54093" />
+
+
 <img width="794" height="365" alt="Screenshot 2026-01-07 104729" src="https://github.com/user-attachments/assets/cb484e11-a6d6-4f8c-9e17-0ad5f15bd20b" />
 
 
@@ -35,12 +38,12 @@ The architecture consists of a Data Ingestion Layer, a Data Preprocessing/Featur
 ## Output
 
 <!--Embed the Output picture at respective places as shown below as shown below-->
-#### Output1 - Name of the output
+#### Output1 - Featured Insights
 
 <img width="802" height="368" alt="Screenshot 2026-01-07 104617" src="https://github.com/user-attachments/assets/d9c7cea8-964f-4e1b-93e3-4b1ed351502f" />
 
 
-#### Output2 - Name of the output
+#### Output2 - Finalized Purchase Plan
 <img width="803" height="395" alt="Screenshot 2026-01-07 104856" src="https://github.com/user-attachments/assets/3405b819-656e-4f35-aae0-2b210ff4f384" />
 
 
